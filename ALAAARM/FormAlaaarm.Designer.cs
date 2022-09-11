@@ -44,8 +44,19 @@
             this.relativesLabel = new System.Windows.Forms.Label();
             this.relativesCheckBox = new System.Windows.Forms.CheckBox();
             this.alarmsListLabel = new System.Windows.Forms.Label();
-            this.openSettingsButton = new System.Windows.Forms.Button();
+            this.alarmSoundVolumeTrackBar = new System.Windows.Forms.TrackBar();
+            this.alarmSoundVolumeLabel = new System.Windows.Forms.Label();
+            this.volumePercentageLabel = new System.Windows.Forms.Label();
+            this.alarmSoundSelectLabel = new System.Windows.Forms.Label();
+            this.alarmSoundSelectComboButton = new System.Windows.Forms.ComboBox();
+            this.alarmCustomSoundSaveButton = new System.Windows.Forms.Button();
+            this.alarmCustomSoundPathLabel = new System.Windows.Forms.Label();
+            this.alarmCustomSoundFileDialogButton = new System.Windows.Forms.Button();
+            this.alarmCustomSoundTextBox = new System.Windows.Forms.TextBox();
+            this.repeatCheckBox = new System.Windows.Forms.CheckBox();
+            this.relativeTimeDisplayLabel = new System.Windows.Forms.Label();
             this.contextMenuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.alarmSoundVolumeTrackBar)).BeginInit();
             this.SuspendLayout();
             // 
             // dateTimePicker
@@ -225,18 +236,89 @@
             resources.ApplyResources(this.alarmsListLabel, "alarmsListLabel");
             this.alarmsListLabel.Name = "alarmsListLabel";
             // 
-            // openSettingsButton
+            // alarmSoundVolumeTrackBar
             // 
-            resources.ApplyResources(this.openSettingsButton, "openSettingsButton");
-            this.openSettingsButton.Name = "openSettingsButton";
-            this.openSettingsButton.UseVisualStyleBackColor = true;
-            this.openSettingsButton.Click += new System.EventHandler(this.openSettingsButton_Click);
+            resources.ApplyResources(this.alarmSoundVolumeTrackBar, "alarmSoundVolumeTrackBar");
+            this.alarmSoundVolumeTrackBar.Maximum = 100;
+            this.alarmSoundVolumeTrackBar.Name = "alarmSoundVolumeTrackBar";
+            this.alarmSoundVolumeTrackBar.Scroll += new System.EventHandler(this.alarmSoundVolumeTrackBar_Scroll);
+            // 
+            // alarmSoundVolumeLabel
+            // 
+            resources.ApplyResources(this.alarmSoundVolumeLabel, "alarmSoundVolumeLabel");
+            this.alarmSoundVolumeLabel.Name = "alarmSoundVolumeLabel";
+            // 
+            // volumePercentageLabel
+            // 
+            resources.ApplyResources(this.volumePercentageLabel, "volumePercentageLabel");
+            this.volumePercentageLabel.Name = "volumePercentageLabel";
+            // 
+            // alarmSoundSelectLabel
+            // 
+            resources.ApplyResources(this.alarmSoundSelectLabel, "alarmSoundSelectLabel");
+            this.alarmSoundSelectLabel.Name = "alarmSoundSelectLabel";
+            // 
+            // alarmSoundSelectComboButton
+            // 
+            this.alarmSoundSelectComboButton.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.alarmSoundSelectComboButton.FormattingEnabled = true;
+            resources.ApplyResources(this.alarmSoundSelectComboButton, "alarmSoundSelectComboButton");
+            this.alarmSoundSelectComboButton.Name = "alarmSoundSelectComboButton";
+            this.alarmSoundSelectComboButton.SelectedIndexChanged += new System.EventHandler(this.alarmSoundSelectComboButton_SelectedIndexChanged);
+            // 
+            // alarmCustomSoundSaveButton
+            // 
+            resources.ApplyResources(this.alarmCustomSoundSaveButton, "alarmCustomSoundSaveButton");
+            this.alarmCustomSoundSaveButton.Name = "alarmCustomSoundSaveButton";
+            this.alarmCustomSoundSaveButton.UseVisualStyleBackColor = true;
+            this.alarmCustomSoundSaveButton.Click += new System.EventHandler(this.alarmCustomSoundSaveButton_Click);
+            // 
+            // alarmCustomSoundPathLabel
+            // 
+            resources.ApplyResources(this.alarmCustomSoundPathLabel, "alarmCustomSoundPathLabel");
+            this.alarmCustomSoundPathLabel.Name = "alarmCustomSoundPathLabel";
+            // 
+            // alarmCustomSoundFileDialogButton
+            // 
+            resources.ApplyResources(this.alarmCustomSoundFileDialogButton, "alarmCustomSoundFileDialogButton");
+            this.alarmCustomSoundFileDialogButton.Name = "alarmCustomSoundFileDialogButton";
+            this.alarmCustomSoundFileDialogButton.UseVisualStyleBackColor = true;
+            this.alarmCustomSoundFileDialogButton.Click += new System.EventHandler(this.alarmCustomSoundFileDialogButton_Click);
+            // 
+            // alarmCustomSoundTextBox
+            // 
+            resources.ApplyResources(this.alarmCustomSoundTextBox, "alarmCustomSoundTextBox");
+            this.alarmCustomSoundTextBox.Name = "alarmCustomSoundTextBox";
+            // 
+            // repeatCheckBox
+            // 
+            resources.ApplyResources(this.repeatCheckBox, "repeatCheckBox");
+            this.repeatCheckBox.Checked = true;
+            this.repeatCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.repeatCheckBox.Name = "repeatCheckBox";
+            this.repeatCheckBox.UseVisualStyleBackColor = true;
+            this.repeatCheckBox.CheckedChanged += new System.EventHandler(this.repeatCheckBox_CheckedChanged);
+            // 
+            // relativeTimeDisplayLabel
+            // 
+            resources.ApplyResources(this.relativeTimeDisplayLabel, "relativeTimeDisplayLabel");
+            this.relativeTimeDisplayLabel.Name = "relativeTimeDisplayLabel";
             // 
             // FormAlaaarm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.openSettingsButton);
+            this.Controls.Add(this.relativeTimeDisplayLabel);
+            this.Controls.Add(this.repeatCheckBox);
+            this.Controls.Add(this.alarmCustomSoundSaveButton);
+            this.Controls.Add(this.alarmCustomSoundPathLabel);
+            this.Controls.Add(this.alarmCustomSoundFileDialogButton);
+            this.Controls.Add(this.alarmCustomSoundTextBox);
+            this.Controls.Add(this.alarmSoundSelectComboButton);
+            this.Controls.Add(this.alarmSoundSelectLabel);
+            this.Controls.Add(this.volumePercentageLabel);
+            this.Controls.Add(this.alarmSoundVolumeLabel);
+            this.Controls.Add(this.alarmSoundVolumeTrackBar);
             this.Controls.Add(this.alarmsListLabel);
             this.Controls.Add(this.relativesCheckBox);
             this.Controls.Add(this.relativesLabel);
@@ -257,6 +339,7 @@
             this.MaximizeBox = false;
             this.Name = "FormAlaaarm";
             this.contextMenuStrip1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.alarmSoundVolumeTrackBar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -291,7 +374,17 @@
         private System.Windows.Forms.Label relativesLabel;
         private System.Windows.Forms.CheckBox relativesCheckBox;
         private System.Windows.Forms.Label alarmsListLabel;
-        private System.Windows.Forms.Button openSettingsButton;
+        private System.Windows.Forms.TrackBar alarmSoundVolumeTrackBar;
+        private System.Windows.Forms.Label alarmSoundVolumeLabel;
+        private System.Windows.Forms.Label volumePercentageLabel;
+        private System.Windows.Forms.Label alarmSoundSelectLabel;
+        private System.Windows.Forms.ComboBox alarmSoundSelectComboButton;
+        private System.Windows.Forms.Button alarmCustomSoundSaveButton;
+        private System.Windows.Forms.Label alarmCustomSoundPathLabel;
+        private System.Windows.Forms.Button alarmCustomSoundFileDialogButton;
+        private System.Windows.Forms.TextBox alarmCustomSoundTextBox;
+        private System.Windows.Forms.CheckBox repeatCheckBox;
+        private System.Windows.Forms.Label relativeTimeDisplayLabel;
     }
 }
 

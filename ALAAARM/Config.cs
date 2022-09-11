@@ -5,14 +5,17 @@ using System.IO;
 namespace alAAARM {
     internal class Config {
 
-        private int _soundVolume = 0;
-        public int soundVolume { get => _soundVolume; set { _soundVolume = value; Write(); } }
+        private byte _soundVolume = 0;
+        public byte soundVolume { get => _soundVolume; set { _soundVolume = value; Write(); } }
         private string _selectedSound = "Beep Beep Beep";
         public string selectedSound { get => _selectedSound; set { _selectedSound = value; Write(); } }
         private string _customSoundPath = "";
         public string customSoundPath { get => _customSoundPath; set { _customSoundPath = value; Write(); } }
         private bool _useRelativeTime = true;
         public bool useRelativeTime { get => _useRelativeTime; set { _useRelativeTime = value; Write(); } }
+        private bool _repeatSound = true;
+        public bool repeatSound { get => _repeatSound; set { _repeatSound = value; Write(); } }
+
 
         [JsonIgnore]
         public static Dictionary<string, string> alarmSoundsPathes;
@@ -26,9 +29,8 @@ namespace alAAARM {
             File.WriteAllText("./config.json", JsonConvert.SerializeObject(Instance, Formatting.Indented));
         }
         public static void Load() {
-            if (File.Exists("./config.json")) {
-                Instance = JsonConvert.DeserializeObject<Config>(File.ReadAllText("./config.json"));
-            } else {
+            if (File.Exists("./config.json")) Instance = JsonConvert.DeserializeObject<Config>(File.ReadAllText("./config.json"));
+            if (Instance == null) {
                 Instance = new Config();
                 Write();
             }
