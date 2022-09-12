@@ -5,18 +5,33 @@ using System.Linq;
 using System.Windows.Forms;
 
 namespace alAAARM {
-    public partial class FormAlaaarm : System.Windows.Forms.Form {
+    internal partial class FormAlaaarm : System.Windows.Forms.Form {
         DateTime targetTime = DateTime.Now;
         TreeNode selectedAlarm;
+        TreeNode selectedAddon;
         TimeSpan relativeTimeContainer;
 
         public FormAlaaarm() {
             InitializeComponent();
-            resetTargetTime();
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            ResetTargetTime();
+
+            var addonsPath = Path.Combine(Program.appPath, "addons");
+            if (!Directory.Exists(addonsPath)) Directory.CreateDirectory(addonsPath);
+            Addons.LoadAllAddonsFromDir(addonsPath);
+
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+
+            notifyIcon1.Icon = Icon;
+            notifyIcon1.Text = "alAAARM";
+            notifyIcon1.Click += (_a, _b) => {
+                Untray();
+            };
+            notifyIcon1.Visible = true;
+
             relativesCheckBox.Checked = !Config.Instance.useRelativeTime;
             relativesCheckBox.Checked = !relativesCheckBox.Checked;
             repeatCheckBox.Checked = Config.Instance.repeatSound;
+            untrayCheckBox.Checked = Config.Instance.untray;
             //this.alarmTitle.Location = new System.Drawing.Point(this.Size.Width / 2, 10);
             //Int32.MaxValue;
             alarmSoundVolumeTrackBar.Value = Config.Instance.soundVolume;
@@ -35,7 +50,7 @@ namespace alAAARM {
         /// Set target time from <see cref="TimeSpan"/>
         /// </summary>
         /// <param name="time"></param>
-        void setTargetTime(TimeSpan time) {
+        void SetTargetTime(TimeSpan time) {
             targetTime += time;
             dateTimePicker.Value = targetTime;
             relativeTimeContainer += time;
@@ -44,9 +59,15 @@ namespace alAAARM {
         /// <summary>
         /// Reset target time
         /// </summary>
-        void resetTargetTime() {
+        void ResetTargetTime() {
             targetTime = DateTime.Now;
             dateTimePicker.Value = targetTime;
+        }
+
+        void Untray() {
+            if (!Visible) Visible = true;
+            if (WindowState == FormWindowState.Minimized) WindowState = FormWindowState.Normal;
+            if (!ShowInTaskbar) ShowInTaskbar = true;
         }
 
         private void dateTimePicker_ValueChanged(object sender, EventArgs e) {
@@ -66,20 +87,29 @@ namespace alAAARM {
                 path = Config.alarmSoundsPathes["Beep Beep Beep"];
                 alarmSoundSelectComboButton.SelectedIndex = alarmSoundSelectComboButton.Items.Count-1;
             }
-            var alarm = new Alarm($"alarm{Alarm.GetAlarms().ToArray().Length}", targetTime, targnode, Config.Instance.repeatSound, new AudioFileReader(path), Config.Instance.soundVolume);
+            var alarm = new Alarm() {
+                AlarmName = $"alarm{Alarm.GetAlarms().ToArray().Length}",
+                WhenAlarmStart = targetTime,
+                AssociatedNodeInForm = targnode,
+                Repeat = Config.Instance.repeatSound,
+                AlarmSound = new AudioFileReader(path),
+                Volume = Config.Instance.soundVolume,
+                Untray = Config.Instance.untray
+            };
             Alarm.AddAlarm(alarm, true);
             Alarm.AlarmStartEvent += (Alarm target) => {
                 //TopMost = true;
                 var r = MessageBox.Show("ALARM ALARM alAAARM!", "alAAARM", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 if (r == DialogResult.OK) {
                     //TopMost = false;
+                    if (target.Untray) { Untray(); }
                     Alarm.RemoveAlarm(alarm);
                 }
             };
         }
 
         private void resetToNowButton_Click(object sender, EventArgs e) {
-            resetTargetTime();
+            ResetTargetTime();
             relativeTimeDisplayLabel.Text = "0:0:0";
             relativeTimeContainer = TimeSpan.Zero;
         }
@@ -89,7 +119,7 @@ namespace alAAARM {
         }
 
         private void plus30SecButton_Click(object sender, EventArgs e) {
-            setTargetTime(TimeSpan.FromSeconds(30));
+            SetTargetTime(TimeSpan.FromSeconds(30));
         }
 
         private void secToolStripMenuItem_Click(object sender, EventArgs e) {
@@ -97,35 +127,35 @@ namespace alAAARM {
         }
 
         private void plus1MinButton_Click(object sender, EventArgs e) {
-            setTargetTime(TimeSpan.FromMinutes(1));
+            SetTargetTime(TimeSpan.FromMinutes(1));
         }
         private void toolStripMenuItem1_Click(object sender, EventArgs e) {
             plus1MinButton_Click(null, null);
         }
 
         private void plus5MinButton_Click(object sender, EventArgs e) {
-            setTargetTime(TimeSpan.FromMinutes(5));
+            SetTargetTime(TimeSpan.FromMinutes(5));
         }
         private void minToolStripMenuItem_Click(object sender, EventArgs e) {
             plus5MinButton_Click(null, null);
         }
 
         private void plus10MinButton_Click(object sender, EventArgs e) {
-            setTargetTime(TimeSpan.FromMinutes(10));
+            SetTargetTime(TimeSpan.FromMinutes(10));
         }
         private void minToolStripMenuItem1_Click(object sender, EventArgs e) {
             plus10MinButton_Click(null, null);
         }
 
         private void plus30MinButton_Click(object sender, EventArgs e) {
-            setTargetTime(TimeSpan.FromMinutes(30));
+            SetTargetTime(TimeSpan.FromMinutes(30));
         }
         private void minToolStripMenuItem2_Click(object sender, EventArgs e) {
             plus30MinButton_Click(null, null);
         }
 
         private void plus1HourButton_Click(object sender, EventArgs e) {
-            setTargetTime(TimeSpan.FromHours(1));
+            SetTargetTime(TimeSpan.FromHours(1));
         }
         private void hToolStripMenuItem_Click(object sender, EventArgs e) {
             plus1HourButton_Click(null, null);
@@ -200,6 +230,45 @@ namespace alAAARM {
 
         private void repeatCheckBox_CheckedChanged(object sender, EventArgs e) {
            Config.Instance.repeatSound = repeatCheckBox.Checked;
+        }
+
+        private void addonAddButtonFileDialog_Click(object sender, EventArgs e) {
+            using (var fd = new OpenFileDialog()) {
+                fd.Filter = ".NET Assembly DLL (*.dll)|*.dll";
+                var res = fd.ShowDialog();
+                if (res == DialogResult.OK) {
+                    Addons.LoadAddon(fd.FileName);
+                    Addons.Represent(addonsTreeView);
+                }
+            }
+        }
+
+        private void addonDeleteButton_Click(object sender, EventArgs e) {
+            if (selectedAddon != null) {
+                Addons.UnloadAddon(Addons.FindAddonByID(selectedAddon.Name));
+                selectedAddon.Remove();
+            } else MessageBox.Show("Addon isn't selected", "alAAARM", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private void addonOpenButton_Click(object sender, EventArgs e) {
+            if (selectedAddon != null) {
+                var f = Addons.FindAddonByID(selectedAddon.Name).GetValue("MainForm") as Form;
+                f.ShowDialog();
+            } else MessageBox.Show("Addon isn't selected", "alAAARM", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private void addonsTreeView_AfterSelect(object sender, TreeViewEventArgs e) {
+            selectedAddon = addonsTreeView.SelectedNode;
+        }
+
+        private void trayMinimizerButton_Click(object sender, EventArgs e) {
+            if (ShowInTaskbar) ShowInTaskbar = false;
+            if (Visible) Visible = false;
+            
+        }
+
+        private void untrayCheckBox_CheckedChanged(object sender, EventArgs e) {
+            Config.Instance.untray = untrayCheckBox.Checked;
         }
     }
 }

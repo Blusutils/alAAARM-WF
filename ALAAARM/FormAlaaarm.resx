@@ -121,51 +121,11 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 48</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
-    <value>contextMenuStrip1</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dateTimePicker.CustomFormat" xml:space="preserve">
-    <value>HH:mm:ss dd.MM.yyyy</value>
-  </data>
-  <data name="dateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 255</value>
-  </data>
-  <data name="dateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 20</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="dateTimePicker.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker.Name" xml:space="preserve">
-    <value>dateTimePicker</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
   <data name="resetToNowToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 22</value>
   </data>
   <data name="resetToNowToolStripMenuItem.Text" xml:space="preserve">
     <value>Reset to Now</value>
-  </data>
-  <data name="addToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
-  </data>
-  <data name="addToolStripMenuItem.Text" xml:space="preserve">
-    <value>Add...</value>
   </data>
   <data name="secToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 22</value>
@@ -203,6 +163,46 @@
   <data name="hToolStripMenuItem.Text" xml:space="preserve">
     <value>1 h.</value>
   </data>
+  <data name="addToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 22</value>
+  </data>
+  <data name="addToolStripMenuItem.Text" xml:space="preserve">
+    <value>Add...</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 48</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dateTimePicker.CustomFormat" xml:space="preserve">
+    <value>HH:mm:ss dd.MM.yyyy</value>
+  </data>
+  <data name="dateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 202</value>
+  </data>
+  <data name="dateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Name" xml:space="preserve">
+    <value>dateTimePicker</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
   <data name="alarmTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -210,7 +210,7 @@
     <value>Whitney Medium, 16pt, style=Bold</value>
   </data>
   <data name="alarmTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>236, 9</value>
+    <value>225, 9</value>
   </data>
   <data name="alarmTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 29</value>
@@ -234,13 +234,17 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;alarmTitle.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>34</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="setAlarmButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="setAlarmButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>447, 498</value>
+    <value>376, 458</value>
   </data>
   <data name="setAlarmButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 55</value>
+    <value>148, 66</value>
   </data>
   <data name="setAlarmButton.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -258,13 +262,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;setAlarmButton.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>33</value>
   </data>
   <data name="setDirectDateLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="setDirectDateLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 239</value>
+    <value>10, 186</value>
   </data>
   <data name="setDirectDateLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 13</value>
@@ -288,10 +292,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;setDirectDateLabel.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>32</value>
   </data>
   <data name="resetToNowButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 84</value>
+    <value>13, 69</value>
   </data>
   <data name="resetToNowButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>97, 23</value>
@@ -312,10 +316,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;resetToNowButton.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>31</value>
   </data>
   <data name="plus30SecButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 140</value>
+    <value>13, 119</value>
   </data>
   <data name="plus30SecButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 23</value>
@@ -336,14 +340,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;plus30SecButton.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>30</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="plus1MinButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="plus1MinButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 140</value>
+    <value>78, 119</value>
   </data>
   <data name="plus1MinButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 23</value>
@@ -364,13 +367,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;plus1MinButton.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>29</value>
   </data>
   <data name="plus5MinButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="plus5MinButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 169</value>
+    <value>143, 119</value>
   </data>
   <data name="plus5MinButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 23</value>
@@ -391,13 +394,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;plus5MinButton.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>28</value>
   </data>
   <data name="plus10MinButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="plus10MinButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 169</value>
+    <value>78, 148</value>
   </data>
   <data name="plus10MinButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 23</value>
@@ -418,13 +421,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;plus10MinButton.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>27</value>
   </data>
   <data name="plus30MinButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="plus30MinButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 198</value>
+    <value>13, 148</value>
   </data>
   <data name="plus30MinButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 23</value>
@@ -445,13 +448,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;plus30MinButton.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>26</value>
   </data>
   <data name="plus1HourButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="plus1HourButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>77, 198</value>
+    <value>143, 148</value>
   </data>
   <data name="plus1HourButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 23</value>
@@ -472,7 +475,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;plus1HourButton.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>25</value>
   </data>
   <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>172, 17</value>
@@ -484,10 +487,10 @@
     <value>True</value>
   </data>
   <data name="treeView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>344, 77</value>
+    <value>296, 195</value>
   </data>
   <data name="treeView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 415</value>
+    <value>228, 257</value>
   </data>
   <data name="treeView1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -502,16 +505,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;treeView1.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>24</value>
   </data>
   <data name="deleteButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="deleteButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>344, 530</value>
+    <value>456, 169</value>
   </data>
   <data name="deleteButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 23</value>
+    <value>68, 23</value>
   </data>
   <data name="deleteButton.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -529,16 +532,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;deleteButton.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>23</value>
   </data>
   <data name="modifyButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="modifyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>344, 498</value>
+    <value>355, 169</value>
   </data>
   <data name="modifyButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 23</value>
+    <value>95, 23</value>
   </data>
   <data name="modifyButton.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -556,13 +559,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;modifyButton.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>22</value>
   </data>
   <data name="relativesLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="relativesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 124</value>
+    <value>10, 103</value>
   </data>
   <data name="relativesLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 13</value>
@@ -583,13 +586,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;relativesLabel.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>21</value>
   </data>
   <data name="relativesCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="relativesCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 61</value>
+    <value>13, 46</value>
   </data>
   <data name="relativesCheckBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 17</value>
@@ -610,13 +613,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;relativesCheckBox.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>20</value>
   </data>
   <data name="alarmsListLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="alarmsListLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>341, 61</value>
+    <value>293, 179</value>
   </data>
   <data name="alarmsListLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 13</value>
@@ -637,7 +640,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;alarmsListLabel.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>19</value>
   </data>
   <data name="alarmSoundVolumeTrackBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 334</value>
@@ -658,7 +661,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;alarmSoundVolumeTrackBar.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>18</value>
   </data>
   <data name="alarmSoundVolumeLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -685,7 +688,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;alarmSoundVolumeLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>17</value>
   </data>
   <data name="volumePercentageLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -715,7 +718,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;volumePercentageLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>16</value>
   </data>
   <data name="alarmSoundSelectLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -742,7 +745,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;alarmSoundSelectLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>15</value>
   </data>
   <data name="alarmSoundSelectComboButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 422</value>
@@ -763,7 +766,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;alarmSoundSelectComboButton.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>14</value>
   </data>
   <data name="alarmCustomSoundSaveButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 501</value>
@@ -787,7 +790,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;alarmCustomSoundSaveButton.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>9</value>
   </data>
   <data name="alarmCustomSoundPathLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -814,13 +817,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;alarmCustomSoundPathLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>10</value>
   </data>
   <data name="alarmCustomSoundFileDialogButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 474</value>
+    <value>232, 473</value>
   </data>
   <data name="alarmCustomSoundFileDialogButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 20</value>
+    <value>24, 21</value>
   </data>
   <data name="alarmCustomSoundFileDialogButton.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -838,13 +841,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;alarmCustomSoundFileDialogButton.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>12</value>
   </data>
   <data name="alarmCustomSoundTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 474</value>
   </data>
   <data name="alarmCustomSoundTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>269, 20</value>
+    <value>218, 20</value>
   </data>
   <data name="alarmCustomSoundTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -859,7 +862,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;alarmCustomSoundTextBox.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>13</value>
   </data>
   <data name="repeatCheckBox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -886,7 +889,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;repeatCheckBox.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>8</value>
   </data>
   <data name="relativeTimeDisplayLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -895,7 +898,7 @@
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
   <data name="relativeTimeDisplayLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 140</value>
+    <value>210, 124</value>
   </data>
   <data name="relativeTimeDisplayLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>19, 13</value>
@@ -916,7 +919,188 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;relativeTimeDisplayLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>7</value>
+  </data>
+  <data name="addonsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="addonsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 50</value>
+  </data>
+  <data name="addonsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="addonsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="addonsLabel.Text" xml:space="preserve">
+    <value>Add-ons</value>
+  </data>
+  <data name="&gt;&gt;addonsLabel.Name" xml:space="preserve">
+    <value>addonsLabel</value>
+  </data>
+  <data name="&gt;&gt;addonsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addonsLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addonsLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="addonAddButtonFileDialog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="addonAddButtonFileDialog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 41</value>
+  </data>
+  <data name="addonAddButtonFileDialog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
+  <data name="addonAddButtonFileDialog.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="addonAddButtonFileDialog.Text" xml:space="preserve">
+    <value>Add...</value>
+  </data>
+  <data name="&gt;&gt;addonAddButtonFileDialog.Name" xml:space="preserve">
+    <value>addonAddButtonFileDialog</value>
+  </data>
+  <data name="&gt;&gt;addonAddButtonFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addonAddButtonFileDialog.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addonAddButtonFileDialog.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="addonsTreeView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 66</value>
+  </data>
+  <data name="addonsTreeView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 97</value>
+  </data>
+  <data name="addonsTreeView.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;addonsTreeView.Name" xml:space="preserve">
+    <value>addonsTreeView</value>
+  </data>
+  <data name="&gt;&gt;addonsTreeView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addonsTreeView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addonsTreeView.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="addonDeleteButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 41</value>
+  </data>
+  <data name="addonDeleteButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 22</value>
+  </data>
+  <data name="addonDeleteButton.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="addonDeleteButton.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;addonDeleteButton.Name" xml:space="preserve">
+    <value>addonDeleteButton</value>
+  </data>
+  <data name="&gt;&gt;addonDeleteButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addonDeleteButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addonDeleteButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="addonOpenButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 41</value>
+  </data>
+  <data name="addonOpenButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 22</value>
+  </data>
+  <data name="addonOpenButton.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="addonOpenButton.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="&gt;&gt;addonOpenButton.Name" xml:space="preserve">
+    <value>addonOpenButton</value>
+  </data>
+  <data name="&gt;&gt;addonOpenButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addonOpenButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addonOpenButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trayMinimizerButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="trayMinimizerButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 459</value>
+  </data>
+  <data name="trayMinimizerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 65</value>
+  </data>
+  <data name="trayMinimizerButton.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="trayMinimizerButton.Text" xml:space="preserve">
+    <value>Minimize
+to tray</value>
+  </data>
+  <data name="&gt;&gt;trayMinimizerButton.Name" xml:space="preserve">
+    <value>trayMinimizerButton</value>
+  </data>
+  <data name="&gt;&gt;trayMinimizerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trayMinimizerButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;trayMinimizerButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="untrayCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="untrayCheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="untrayCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 239</value>
+  </data>
+  <data name="untrayCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 17</value>
+  </data>
+  <data name="untrayCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="untrayCheckBox.Text" xml:space="preserve">
+    <value>Maximize from tray when triggered</value>
+  </data>
+  <data name="&gt;&gt;untrayCheckBox.Name" xml:space="preserve">
+    <value>untrayCheckBox</value>
+  </data>
+  <data name="&gt;&gt;untrayCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;untrayCheckBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;untrayCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -928,7 +1112,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>584, 565</value>
+    <value>544, 542</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

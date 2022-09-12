@@ -34,6 +34,10 @@ namespace alAAARM {
         /// Alarm sound volume
         /// </summary>
         public float Volume { get; set; }
+        /// <summary>
+        /// Need to maximize alAAARM from tray when this alarm triggers?
+        /// </summary>
+        public bool Untray { get; set; } = true;
 
         /// <summary>
         /// Thread, where happends all magic ✨
@@ -47,19 +51,7 @@ namespace alAAARM {
         /// <summary>
         /// Constructor of alarm
         /// </summary>
-        /// <param name="alarmName"><seealso cref="AlarmName"/></param>
-        /// <param name="whenAlarmStart"><seealso cref="WhenAlarmStart"/></param>
-        /// <param name="associatedNodeInForm"><seealso cref="AssociatedNodeInForm"/></param>
-        /// <param name="repeat"><seealso cref="Repeat"/></param>
-        /// <param name="alarmSound"><see cref="AlarmSound"/></param>
-        /// <param name="volume"><seealso cref="Volume"/></param>
-        public Alarm(string alarmName, DateTime whenAlarmStart, TreeNode associatedNodeInForm, bool repeat = false, AudioFileReader alarmSound = null, byte volume = 100) {
-            AlarmName = alarmName;
-            WhenAlarmStart = whenAlarmStart;
-            AssociatedNodeInForm = associatedNodeInForm;
-            Repeat = repeat;
-            AlarmSound = alarmSound ?? AlarmSound;
-            Volume = volume/100f;
+        public Alarm() {
         }
         /// <summary>
         /// Queue alarm startup
@@ -90,7 +82,7 @@ namespace alAAARM {
                     }
                 };
                 // *annoying alarm clock sounds*
-                outputDevice.Volume = Volume;
+                outputDevice.Volume = Volume/100f;
                 outputDevice.Play();
                 // call start event
                 if (AlarmStartEvent != null) AlarmStartEvent(this);

@@ -15,6 +15,8 @@ namespace alAAARM {
         public bool useRelativeTime { get => _useRelativeTime; set { _useRelativeTime = value; Write(); } }
         private bool _repeatSound = true;
         public bool repeatSound { get => _repeatSound; set { _repeatSound = value; Write(); } }
+        private bool _untray = true;
+        public bool untray { get => _untray; set { _untray = value; Write(); } }
 
 
         [JsonIgnore]
@@ -26,23 +28,24 @@ namespace alAAARM {
         Config() { }
 
         private static void Write() {
-            File.WriteAllText("./config.json", JsonConvert.SerializeObject(Instance, Formatting.Indented));
+            File.WriteAllText(Path.Combine(Program.appPath, "config.json"), JsonConvert.SerializeObject(Instance, Formatting.Indented));
         }
         public static void Load() {
-            if (File.Exists("./config.json")) Instance = JsonConvert.DeserializeObject<Config>(File.ReadAllText("./config.json"));
+            if (File.Exists(Path.Combine(Program.appPath, "config.json")))
+                Instance = JsonConvert.DeserializeObject<Config>(File.ReadAllText(Path.Combine(Program.appPath, "config.json")));
             if (Instance == null) {
                 Instance = new Config();
                 Write();
             }
-            var appPath = System.Reflection.Assembly.GetExecutingAssembly().Location.Replace(Path.GetFileName(System.Reflection.Assembly.GetExecutingAssembly().Location), "");
+            
             alarmSoundsPathes = new Dictionary<string, string>() {
-                { "Beep Beep Beep", Path.Combine(appPath, "alarms", "beepbeepbeep.mp3") },
-                { "Beep Beep Beep Alternate", Path.Combine(appPath, "alarms", "beepbeepbeep2.mp3") },
-                { "Alarm clock", Path.Combine(appPath, "alarms", "alarmclock.mp3") },
-                { "Sinusoid", Path.Combine(appPath, "alarms", "sinusoid.mp3") },
-                /*{ "C Dur", Path.Combine(appPath, "alarms", "cdur.mp3") },
-                { "Guitar", Path.Combine(appPath, "alarms", "guitarsolo.mp3") },
-                { "Percussion", Path.Combine(appPath, "alarms", "percussion.mp3") },*/
+                { "Beep Beep Beep", Path.Combine(Program.appPath, "alarms", "beepbeepbeep.mp3") },
+                { "Beep Beep Beep Alternate", Path.Combine(Program.appPath, "alarms", "beepbeepbeep2.mp3") },
+                { "Alarm clock", Path.Combine(Program.appPath, "alarms", "alarmclock.mp3") },
+                { "Sinusoid", Path.Combine(Program.appPath, "alarms", "sinusoid.mp3") },
+                /*{ "C Dur", Path.Combine(Program.appPath, "alarms", "cdur.mp3") },
+                { "Guitar", Path.Combine(Program.appPath, "alarms", "guitarsolo.mp3") },
+                { "Percussion", Path.Combine(Program.appPath, "alarms", "percussion.mp3") },*/
                 { "Custom", Instance.customSoundPath }
             };
         }

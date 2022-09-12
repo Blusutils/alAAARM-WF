@@ -55,6 +55,13 @@
             this.alarmCustomSoundTextBox = new System.Windows.Forms.TextBox();
             this.repeatCheckBox = new System.Windows.Forms.CheckBox();
             this.relativeTimeDisplayLabel = new System.Windows.Forms.Label();
+            this.addonsLabel = new System.Windows.Forms.Label();
+            this.addonAddButtonFileDialog = new System.Windows.Forms.Button();
+            this.addonsTreeView = new System.Windows.Forms.TreeView();
+            this.addonDeleteButton = new System.Windows.Forms.Button();
+            this.addonOpenButton = new System.Windows.Forms.Button();
+            this.trayMinimizerButton = new System.Windows.Forms.Button();
+            this.untrayCheckBox = new System.Windows.Forms.CheckBox();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.alarmSoundVolumeTrackBar)).BeginInit();
             this.SuspendLayout();
@@ -304,14 +311,67 @@
             resources.ApplyResources(this.relativeTimeDisplayLabel, "relativeTimeDisplayLabel");
             this.relativeTimeDisplayLabel.Name = "relativeTimeDisplayLabel";
             // 
+            // addonsLabel
+            // 
+            resources.ApplyResources(this.addonsLabel, "addonsLabel");
+            this.addonsLabel.Name = "addonsLabel";
+            // 
+            // addonAddButtonFileDialog
+            // 
+            resources.ApplyResources(this.addonAddButtonFileDialog, "addonAddButtonFileDialog");
+            this.addonAddButtonFileDialog.Name = "addonAddButtonFileDialog";
+            this.addonAddButtonFileDialog.UseVisualStyleBackColor = true;
+            this.addonAddButtonFileDialog.Click += new System.EventHandler(this.addonAddButtonFileDialog_Click);
+            // 
+            // addonsTreeView
+            // 
+            resources.ApplyResources(this.addonsTreeView, "addonsTreeView");
+            this.addonsTreeView.Name = "addonsTreeView";
+            this.addonsTreeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.addonsTreeView_AfterSelect);
+            // 
+            // addonDeleteButton
+            // 
+            resources.ApplyResources(this.addonDeleteButton, "addonDeleteButton");
+            this.addonDeleteButton.Name = "addonDeleteButton";
+            this.addonDeleteButton.UseVisualStyleBackColor = true;
+            this.addonDeleteButton.Click += new System.EventHandler(this.addonDeleteButton_Click);
+            // 
+            // addonOpenButton
+            // 
+            resources.ApplyResources(this.addonOpenButton, "addonOpenButton");
+            this.addonOpenButton.Name = "addonOpenButton";
+            this.addonOpenButton.UseVisualStyleBackColor = true;
+            this.addonOpenButton.Click += new System.EventHandler(this.addonOpenButton_Click);
+            // 
+            // trayMinimizerButton
+            // 
+            resources.ApplyResources(this.trayMinimizerButton, "trayMinimizerButton");
+            this.trayMinimizerButton.Name = "trayMinimizerButton";
+            this.trayMinimizerButton.UseVisualStyleBackColor = true;
+            this.trayMinimizerButton.Click += new System.EventHandler(this.trayMinimizerButton_Click);
+            // 
+            // untrayCheckBox
+            // 
+            resources.ApplyResources(this.untrayCheckBox, "untrayCheckBox");
+            this.untrayCheckBox.Name = "untrayCheckBox";
+            this.untrayCheckBox.UseVisualStyleBackColor = true;
+            this.untrayCheckBox.CheckedChanged += new System.EventHandler(this.untrayCheckBox_CheckedChanged);
+            // 
             // FormAlaaarm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.untrayCheckBox);
+            this.Controls.Add(this.trayMinimizerButton);
+            this.Controls.Add(this.addonOpenButton);
+            this.Controls.Add(this.addonDeleteButton);
+            this.Controls.Add(this.addonsTreeView);
+            this.Controls.Add(this.addonsLabel);
             this.Controls.Add(this.relativeTimeDisplayLabel);
             this.Controls.Add(this.repeatCheckBox);
             this.Controls.Add(this.alarmCustomSoundSaveButton);
             this.Controls.Add(this.alarmCustomSoundPathLabel);
+            this.Controls.Add(this.addonAddButtonFileDialog);
             this.Controls.Add(this.alarmCustomSoundFileDialogButton);
             this.Controls.Add(this.alarmCustomSoundTextBox);
             this.Controls.Add(this.alarmSoundSelectComboButton);
@@ -385,6 +445,13 @@
         private System.Windows.Forms.TextBox alarmCustomSoundTextBox;
         private System.Windows.Forms.CheckBox repeatCheckBox;
         private System.Windows.Forms.Label relativeTimeDisplayLabel;
+        private System.Windows.Forms.Label addonsLabel;
+        private System.Windows.Forms.Button addonAddButtonFileDialog;
+        private System.Windows.Forms.TreeView addonsTreeView;
+        private System.Windows.Forms.Button addonDeleteButton;
+        private System.Windows.Forms.Button addonOpenButton;
+        private System.Windows.Forms.Button trayMinimizerButton;
+        private System.Windows.Forms.CheckBox untrayCheckBox;
     }
 }
 
