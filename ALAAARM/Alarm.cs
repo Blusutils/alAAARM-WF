@@ -5,7 +5,7 @@ using System.Threading;
 using System.Windows.Forms;
 
 namespace alAAARM {
-    internal class Alarm {
+    public class Alarm {
         /// <summary>
         /// Alarm name
         /// </summary>
@@ -19,7 +19,7 @@ namespace alAAARM {
         /// </summary>
         public TreeNode AssociatedNodeInForm { get; set; }
         /// <summary>
-        /// Is alarm sound repeating
+        /// Is alarm sound repeating?
         /// </summary>
         public bool Repeat { get; set; } = false;
         /// <summary>
@@ -123,11 +123,11 @@ namespace alAAARM {
         /// </summary>
         public static event AlarmEventDelegate AlarmQueueEvent;
         /// <summary>
-        /// Event what calls when alarm start it work
+        /// Event what calls when alarm starts
         /// </summary>
         public static event AlarmEventDelegate AlarmStartEvent;
         /// <summary>
-        /// Event what calls when alarm end it work
+        /// Event what calls when alarm ends
         /// </summary>
         public static event AlarmEventDelegate AlarmEndEvent;
 
