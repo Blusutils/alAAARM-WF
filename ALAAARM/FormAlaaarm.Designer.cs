@@ -49,7 +49,6 @@
             this.volumePercentageLabel = new System.Windows.Forms.Label();
             this.alarmSoundSelectLabel = new System.Windows.Forms.Label();
             this.alarmSoundSelectComboButton = new System.Windows.Forms.ComboBox();
-            this.alarmCustomSoundSaveButton = new System.Windows.Forms.Button();
             this.alarmCustomSoundPathLabel = new System.Windows.Forms.Label();
             this.alarmCustomSoundFileDialogButton = new System.Windows.Forms.Button();
             this.alarmCustomSoundTextBox = new System.Windows.Forms.TextBox();
@@ -273,13 +272,6 @@
             this.alarmSoundSelectComboButton.Name = "alarmSoundSelectComboButton";
             this.alarmSoundSelectComboButton.SelectedIndexChanged += new System.EventHandler(this.alarmSoundSelectComboButton_SelectedIndexChanged);
             // 
-            // alarmCustomSoundSaveButton
-            // 
-            resources.ApplyResources(this.alarmCustomSoundSaveButton, "alarmCustomSoundSaveButton");
-            this.alarmCustomSoundSaveButton.Name = "alarmCustomSoundSaveButton";
-            this.alarmCustomSoundSaveButton.UseVisualStyleBackColor = true;
-            this.alarmCustomSoundSaveButton.Click += new System.EventHandler(this.alarmCustomSoundSaveButton_Click);
-            // 
             // alarmCustomSoundPathLabel
             // 
             resources.ApplyResources(this.alarmCustomSoundPathLabel, "alarmCustomSoundPathLabel");
@@ -369,7 +361,6 @@
             this.Controls.Add(this.addonsLabel);
             this.Controls.Add(this.relativeTimeDisplayLabel);
             this.Controls.Add(this.repeatCheckBox);
-            this.Controls.Add(this.alarmCustomSoundSaveButton);
             this.Controls.Add(this.alarmCustomSoundPathLabel);
             this.Controls.Add(this.addonAddButtonFileDialog);
             this.Controls.Add(this.alarmCustomSoundFileDialogButton);
@@ -439,7 +430,6 @@
         private System.Windows.Forms.Label volumePercentageLabel;
         private System.Windows.Forms.Label alarmSoundSelectLabel;
         private System.Windows.Forms.ComboBox alarmSoundSelectComboButton;
-        private System.Windows.Forms.Button alarmCustomSoundSaveButton;
         private System.Windows.Forms.Label alarmCustomSoundPathLabel;
         private System.Windows.Forms.Button alarmCustomSoundFileDialogButton;
         private System.Windows.Forms.TextBox alarmCustomSoundTextBox;

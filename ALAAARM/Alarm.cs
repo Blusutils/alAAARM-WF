@@ -94,11 +94,6 @@ namespace alAAARM {
         /// Stop alarm work and unqueue it
         /// </summary>
         public void StopAlarm() {
-            // stop thread
-            if (alarmThread != null && alarmThread.IsAlive) {
-                alarmThread.Abort();
-                alarmThread = null;
-            }
             // unqueue
             Queued = false;
             // stop Wave player
@@ -108,6 +103,11 @@ namespace alAAARM {
             // remove TreeNode
             if (AssociatedNodeInForm != null) {
                 AssociatedNodeInForm.Remove();
+            }
+            // stop thread
+            if (alarmThread != null && alarmThread.IsAlive) {
+                alarmThread.Abort();
+                alarmThread = null;
             }
             // call end event
             if (AlarmEndEvent != null) AlarmEndEvent(this);

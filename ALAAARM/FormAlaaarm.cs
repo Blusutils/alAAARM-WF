@@ -41,7 +41,6 @@ namespace alAAARM {
             alarmSoundSelectComboButton.SelectedItem = Config.Instance.selectedSound;
             alarmCustomSoundFileDialogButton.Enabled
                 = alarmCustomSoundPathLabel.Enabled
-                = alarmCustomSoundSaveButton.Enabled
                 = alarmCustomSoundTextBox.Enabled
                 = alarmSoundSelectComboButton.SelectedItem.ToString() == "Custom";
             alarmCustomSoundTextBox.Text = Config.Instance.customSoundPath;
@@ -208,7 +207,6 @@ namespace alAAARM {
         private void alarmSoundSelectComboButton_SelectedIndexChanged(object sender, EventArgs e) {
             alarmCustomSoundFileDialogButton.Enabled
                 = alarmCustomSoundPathLabel.Enabled
-                = alarmCustomSoundSaveButton.Enabled
                 = alarmCustomSoundTextBox.Enabled
                 = alarmSoundSelectComboButton.SelectedItem.ToString() == "Custom";
             Config.Instance.selectedSound = alarmSoundSelectComboButton.SelectedItem.ToString();
@@ -219,13 +217,9 @@ namespace alAAARM {
                 fd.Filter = "MP3 sound (*.mp3)|*.mp3";
                 var res = fd.ShowDialog();
                 if (res == DialogResult.OK) {
-                    alarmCustomSoundTextBox.Text = fd.FileName;
+                    Config.Instance.customSoundPath = alarmCustomSoundTextBox.Text = fd.FileName;
                 }
             }
-        }
-
-        private void alarmCustomSoundSaveButton_Click(object sender, EventArgs e) {
-            Config.Instance.customSoundPath = alarmCustomSoundTextBox.Text;
         }
 
         private void repeatCheckBox_CheckedChanged(object sender, EventArgs e) {
