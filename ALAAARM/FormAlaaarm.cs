@@ -1,7 +1,10 @@
 ﻿using NAudio.Wave;
 using System;
+using System.ComponentModel;
+using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace alAAARM {
@@ -12,6 +15,8 @@ namespace alAAARM {
         TimeSpan relativeTimeContainer;
 
         public FormAlaaarm() {
+            // yay I found it!
+            CheckForIllegalCrossThreadCalls = false;
             InitializeComponent();
             ResetTargetTime();
 
@@ -27,6 +32,9 @@ namespace alAAARM {
                 Untray();
             };
             notifyIcon1.Visible = true;
+
+            languageComboBox.SelectedItem = Config.Instance.language;
+            ChangeLanguage(Config.Instance.language);
 
             relativesCheckBox.Checked = !Config.Instance.useRelativeTime;
             relativesCheckBox.Checked = !relativesCheckBox.Checked;
@@ -63,10 +71,26 @@ namespace alAAARM {
             dateTimePicker.Value = targetTime;
         }
 
+        /// <summary>
+        /// Untrays form
+        /// </summary>
         void Untray() {
-            if (!Visible) Visible = true;
+            //if (!Visible) Visible = true;
             if (WindowState == FormWindowState.Minimized) WindowState = FormWindowState.Normal;
             if (!ShowInTaskbar) ShowInTaskbar = true;
+            Activate();
+        }
+
+        /// <summary>
+        /// Changes language of form
+        /// </summary>
+        /// <param name="lang">Language to apply</param>
+        void ChangeLanguage(string lang) {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(lang);
+            foreach (Control c in Controls) {
+                ComponentResourceManager resources = new ComponentResourceManager(GetType());
+                resources.ApplyResources(c, c.Name, new CultureInfo(lang));
+            }
         }
 
         private void dateTimePicker_ValueChanged(object sender, EventArgs e) {
@@ -101,8 +125,10 @@ namespace alAAARM {
                 var r = MessageBox.Show("ALARM ALARM alAAARM!", "alAAARM", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 if (r == DialogResult.OK) {
                     //TopMost = false;
-                    if (target.Untray) { Untray(); }
                     Alarm.RemoveAlarm(alarm);
+                    //Thread.Sleep(1000);
+                    //if (target.Untray) { Untray(); };
+                    Activate();
                 }
             };
         }
@@ -256,13 +282,20 @@ namespace alAAARM {
         }
 
         private void trayMinimizerButton_Click(object sender, EventArgs e) {
+            WindowState = FormWindowState.Minimized;
             if (ShowInTaskbar) ShowInTaskbar = false;
-            if (Visible) Visible = false;
+            //if (Visible) Visible = false;
             
         }
 
         private void untrayCheckBox_CheckedChanged(object sender, EventArgs e) {
             Config.Instance.untray = untrayCheckBox.Checked;
+        }
+
+        private void languageComboBox_SelectedIndexChanged(object sender, EventArgs e) {
+            var loc = languageComboBox.SelectedItem as string;
+            Config.Instance.language = loc;
+            ChangeLanguage(loc);
         }
     }
 }

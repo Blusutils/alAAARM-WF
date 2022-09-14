@@ -117,999 +117,159 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 48</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
-    <value>contextMenuStrip1</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dateTimePicker.CustomFormat" xml:space="preserve">
-    <value>HH:mm:ss dd.MM.yyyy</value>
-  </data>
-  <data name="dateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 202</value>
-  </data>
-  <data name="dateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 20</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="dateTimePicker.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker.Name" xml:space="preserve">
-    <value>dateTimePicker</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker.ZOrder" xml:space="preserve">
-    <value>35</value>
-  </data>
-  <data name="resetToNowToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
-  </data>
-  <data name="resetToNowToolStripMenuItem.Text" xml:space="preserve">
-    <value>Reset to Now</value>
-  </data>
-  <data name="addToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
-  </data>
-  <data name="addToolStripMenuItem.Text" xml:space="preserve">
-    <value>Add...</value>
-  </data>
-  <data name="secToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 22</value>
-  </data>
-  <data name="secToolStripMenuItem.Text" xml:space="preserve">
-    <value>30 sec.</value>
-  </data>
-  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 22</value>
-  </data>
-  <data name="toolStripMenuItem1.Text" xml:space="preserve">
-    <value>1 min.</value>
-  </data>
-  <data name="minToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 22</value>
-  </data>
-  <data name="minToolStripMenuItem.Text" xml:space="preserve">
-    <value>5 min.</value>
-  </data>
-  <data name="minToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 22</value>
-  </data>
-  <data name="minToolStripMenuItem1.Text" xml:space="preserve">
-    <value>10 min.</value>
-  </data>
-  <data name="minToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 22</value>
-  </data>
-  <data name="minToolStripMenuItem2.Text" xml:space="preserve">
-    <value>30 min.</value>
-  </data>
-  <data name="hToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 22</value>
-  </data>
-  <data name="hToolStripMenuItem.Text" xml:space="preserve">
-    <value>1 h.</value>
-  </data>
-  <data name="alarmTitle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="alarmTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Whitney Medium, 16pt, style=Bold</value>
-  </data>
-  <data name="alarmTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>225, 9</value>
-  </data>
-  <data name="alarmTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 29</value>
-  </data>
-  <data name="alarmTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="alarmTitle.Text" xml:space="preserve">
-    <value>alAAARM</value>
-  </data>
-  <data name="alarmTitle.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopCenter</value>
-  </data>
-  <data name="&gt;&gt;alarmTitle.Name" xml:space="preserve">
-    <value>alarmTitle</value>
-  </data>
-  <data name="&gt;&gt;alarmTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;alarmTitle.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;alarmTitle.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="setAlarmButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="setAlarmButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>376, 458</value>
-  </data>
-  <data name="setAlarmButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 66</value>
-  </data>
-  <data name="setAlarmButton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>376, 500</value>
   </data>
   <data name="setAlarmButton.Text" xml:space="preserve">
-    <value>Go!</value>
-  </data>
-  <data name="&gt;&gt;setAlarmButton.Name" xml:space="preserve">
-    <value>setAlarmButton</value>
-  </data>
-  <data name="&gt;&gt;setAlarmButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;setAlarmButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;setAlarmButton.ZOrder" xml:space="preserve">
-    <value>33</value>
-  </data>
-  <data name="setDirectDateLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="setDirectDateLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 186</value>
+    <value>Запуск!</value>
   </data>
   <data name="setDirectDateLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 13</value>
-  </data>
-  <data name="setDirectDateLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>93, 13</value>
   </data>
   <data name="setDirectDateLabel.Text" xml:space="preserve">
-    <value>Set date:</value>
-  </data>
-  <data name="setDirectDateLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;setDirectDateLabel.Name" xml:space="preserve">
-    <value>setDirectDateLabel</value>
-  </data>
-  <data name="&gt;&gt;setDirectDateLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;setDirectDateLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;setDirectDateLabel.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <data name="resetToNowButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 69</value>
+    <value>Установка даты:</value>
   </data>
   <data name="resetToNowButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 23</value>
-  </data>
-  <data name="resetToNowButton.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>98, 23</value>
   </data>
   <data name="resetToNowButton.Text" xml:space="preserve">
-    <value>Reset to Now</value>
-  </data>
-  <data name="&gt;&gt;resetToNowButton.Name" xml:space="preserve">
-    <value>resetToNowButton</value>
-  </data>
-  <data name="&gt;&gt;resetToNowButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;resetToNowButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;resetToNowButton.ZOrder" xml:space="preserve">
-    <value>31</value>
-  </data>
-  <data name="plus30SecButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 119</value>
-  </data>
-  <data name="plus30SecButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 23</value>
-  </data>
-  <data name="plus30SecButton.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>Сбросить время</value>
   </data>
   <data name="plus30SecButton.Text" xml:space="preserve">
-    <value>+30 sec.</value>
-  </data>
-  <data name="&gt;&gt;plus30SecButton.Name" xml:space="preserve">
-    <value>plus30SecButton</value>
-  </data>
-  <data name="&gt;&gt;plus30SecButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;plus30SecButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;plus30SecButton.ZOrder" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="plus1MinButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="plus1MinButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 119</value>
-  </data>
-  <data name="plus1MinButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 23</value>
-  </data>
-  <data name="plus1MinButton.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>+30 сек.</value>
   </data>
   <data name="plus1MinButton.Text" xml:space="preserve">
-    <value>+1 min.</value>
-  </data>
-  <data name="&gt;&gt;plus1MinButton.Name" xml:space="preserve">
-    <value>plus1MinButton</value>
-  </data>
-  <data name="&gt;&gt;plus1MinButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;plus1MinButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;plus1MinButton.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="plus5MinButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="plus5MinButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 119</value>
-  </data>
-  <data name="plus5MinButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 23</value>
-  </data>
-  <data name="plus5MinButton.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>+1 мин.</value>
   </data>
   <data name="plus5MinButton.Text" xml:space="preserve">
-    <value>+5 min.</value>
-  </data>
-  <data name="&gt;&gt;plus5MinButton.Name" xml:space="preserve">
-    <value>plus5MinButton</value>
-  </data>
-  <data name="&gt;&gt;plus5MinButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;plus5MinButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;plus5MinButton.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="plus10MinButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="plus10MinButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 148</value>
-  </data>
-  <data name="plus10MinButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 23</value>
-  </data>
-  <data name="plus10MinButton.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>+5 мин.</value>
   </data>
   <data name="plus10MinButton.Text" xml:space="preserve">
-    <value>+10 min.</value>
-  </data>
-  <data name="&gt;&gt;plus10MinButton.Name" xml:space="preserve">
-    <value>plus10MinButton</value>
-  </data>
-  <data name="&gt;&gt;plus10MinButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;plus10MinButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;plus10MinButton.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="plus30MinButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="plus30MinButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 148</value>
-  </data>
-  <data name="plus30MinButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 23</value>
-  </data>
-  <data name="plus30MinButton.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>+10 мин.</value>
   </data>
   <data name="plus30MinButton.Text" xml:space="preserve">
-    <value>+30 min.</value>
-  </data>
-  <data name="&gt;&gt;plus30MinButton.Name" xml:space="preserve">
-    <value>plus30MinButton</value>
-  </data>
-  <data name="&gt;&gt;plus30MinButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;plus30MinButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;plus30MinButton.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="plus1HourButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="plus1HourButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 148</value>
-  </data>
-  <data name="plus1HourButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 23</value>
-  </data>
-  <data name="plus1HourButton.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>+30 мин.</value>
   </data>
   <data name="plus1HourButton.Text" xml:space="preserve">
-    <value>+1 hour</value>
-  </data>
-  <data name="&gt;&gt;plus1HourButton.Name" xml:space="preserve">
-    <value>plus1HourButton</value>
-  </data>
-  <data name="&gt;&gt;plus1HourButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;plus1HourButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;plus1HourButton.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>172, 17</value>
-  </metadata>
-  <data name="notifyIcon1.Text" xml:space="preserve">
-    <value>notifyIcon1</value>
-  </data>
-  <data name="notifyIcon1.Visible" type="System.Boolean, mscorlib">
-    <value>True</value>
+    <value>+1 час</value>
   </data>
   <data name="treeView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 195</value>
-  </data>
-  <data name="treeView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 257</value>
-  </data>
-  <data name="treeView1.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;treeView1.Name" xml:space="preserve">
-    <value>treeView1</value>
-  </data>
-  <data name="&gt;&gt;treeView1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;treeView1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;treeView1.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="deleteButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+    <value>296, 237</value>
   </data>
   <data name="deleteButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>456, 169</value>
-  </data>
-  <data name="deleteButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 23</value>
-  </data>
-  <data name="deleteButton.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>394, 211</value>
   </data>
   <data name="deleteButton.Text" xml:space="preserve">
-    <value>Delete</value>
-  </data>
-  <data name="&gt;&gt;deleteButton.Name" xml:space="preserve">
-    <value>deleteButton</value>
-  </data>
-  <data name="&gt;&gt;deleteButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;deleteButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;deleteButton.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="modifyButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+    <value>Удалить</value>
   </data>
   <data name="modifyButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>355, 169</value>
+    <value>296, 211</value>
   </data>
   <data name="modifyButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 23</value>
-  </data>
-  <data name="modifyButton.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>92, 23</value>
   </data>
   <data name="modifyButton.Text" xml:space="preserve">
-    <value>Modify from input</value>
-  </data>
-  <data name="&gt;&gt;modifyButton.Name" xml:space="preserve">
-    <value>modifyButton</value>
-  </data>
-  <data name="&gt;&gt;modifyButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;modifyButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;modifyButton.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="relativesLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="relativesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 103</value>
+    <value>Изменить</value>
   </data>
   <data name="relativesLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 13</value>
-  </data>
-  <data name="relativesLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>123, 13</value>
   </data>
   <data name="relativesLabel.Text" xml:space="preserve">
-    <value>Relative time:</value>
-  </data>
-  <data name="&gt;&gt;relativesLabel.Name" xml:space="preserve">
-    <value>relativesLabel</value>
-  </data>
-  <data name="&gt;&gt;relativesLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;relativesLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;relativesLabel.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="relativesCheckBox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="relativesCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 46</value>
+    <value>Относительное время:</value>
   </data>
   <data name="relativesCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 17</value>
-  </data>
-  <data name="relativesCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>175, 17</value>
   </data>
   <data name="relativesCheckBox.Text" xml:space="preserve">
-    <value>Use relative time</value>
-  </data>
-  <data name="&gt;&gt;relativesCheckBox.Name" xml:space="preserve">
-    <value>relativesCheckBox</value>
-  </data>
-  <data name="&gt;&gt;relativesCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;relativesCheckBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;relativesCheckBox.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="alarmsListLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+    <value>Использовать отснос. время</value>
   </data>
   <data name="alarmsListLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>293, 179</value>
+    <value>293, 195</value>
   </data>
   <data name="alarmsListLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 13</value>
-  </data>
-  <data name="alarmsListLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>115, 13</value>
   </data>
   <data name="alarmsListLabel.Text" xml:space="preserve">
-    <value>Alarms list:</value>
-  </data>
-  <data name="&gt;&gt;alarmsListLabel.Name" xml:space="preserve">
-    <value>alarmsListLabel</value>
-  </data>
-  <data name="&gt;&gt;alarmsListLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;alarmsListLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;alarmsListLabel.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="alarmSoundVolumeTrackBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 334</value>
-  </data>
-  <data name="alarmSoundVolumeTrackBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 45</value>
-  </data>
-  <data name="alarmSoundVolumeTrackBar.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundVolumeTrackBar.Name" xml:space="preserve">
-    <value>alarmSoundVolumeTrackBar</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundVolumeTrackBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundVolumeTrackBar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundVolumeTrackBar.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="alarmSoundVolumeLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="alarmSoundVolumeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 315</value>
+    <value>Список будильников:</value>
   </data>
   <data name="alarmSoundVolumeLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 13</value>
-  </data>
-  <data name="alarmSoundVolumeLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+    <value>109, 13</value>
   </data>
   <data name="alarmSoundVolumeLabel.Text" xml:space="preserve">
-    <value>Alarm sound volume</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundVolumeLabel.Name" xml:space="preserve">
-    <value>alarmSoundVolumeLabel</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundVolumeLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundVolumeLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundVolumeLabel.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="volumePercentageLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="volumePercentageLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="volumePercentageLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>176, 334</value>
-  </data>
-  <data name="volumePercentageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 17</value>
-  </data>
-  <data name="volumePercentageLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="volumePercentageLabel.Text" xml:space="preserve">
-    <value>%s%</value>
-  </data>
-  <data name="&gt;&gt;volumePercentageLabel.Name" xml:space="preserve">
-    <value>volumePercentageLabel</value>
-  </data>
-  <data name="&gt;&gt;volumePercentageLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;volumePercentageLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;volumePercentageLabel.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="alarmSoundSelectLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="alarmSoundSelectLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 406</value>
+    <value>Громкость мелодии</value>
   </data>
   <data name="alarmSoundSelectLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 13</value>
-  </data>
-  <data name="alarmSoundSelectLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+    <value>52, 13</value>
   </data>
   <data name="alarmSoundSelectLabel.Text" xml:space="preserve">
-    <value>Sound</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundSelectLabel.Name" xml:space="preserve">
-    <value>alarmSoundSelectLabel</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundSelectLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundSelectLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundSelectLabel.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="alarmSoundSelectComboButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 422</value>
-  </data>
-  <data name="alarmSoundSelectComboButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 21</value>
-  </data>
-  <data name="alarmSoundSelectComboButton.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundSelectComboButton.Name" xml:space="preserve">
-    <value>alarmSoundSelectComboButton</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundSelectComboButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundSelectComboButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;alarmSoundSelectComboButton.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="alarmCustomSoundPathLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="alarmCustomSoundPathLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 455</value>
+    <value>Мелодия</value>
   </data>
   <data name="alarmCustomSoundPathLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 13</value>
-  </data>
-  <data name="alarmCustomSoundPathLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
+    <value>161, 13</value>
   </data>
   <data name="alarmCustomSoundPathLabel.Text" xml:space="preserve">
-    <value>Custom sound path</value>
-  </data>
-  <data name="&gt;&gt;alarmCustomSoundPathLabel.Name" xml:space="preserve">
-    <value>alarmCustomSoundPathLabel</value>
-  </data>
-  <data name="&gt;&gt;alarmCustomSoundPathLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;alarmCustomSoundPathLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;alarmCustomSoundPathLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="alarmCustomSoundFileDialogButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>232, 473</value>
-  </data>
-  <data name="alarmCustomSoundFileDialogButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 21</value>
-  </data>
-  <data name="alarmCustomSoundFileDialogButton.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="alarmCustomSoundFileDialogButton.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="&gt;&gt;alarmCustomSoundFileDialogButton.Name" xml:space="preserve">
-    <value>alarmCustomSoundFileDialogButton</value>
-  </data>
-  <data name="&gt;&gt;alarmCustomSoundFileDialogButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;alarmCustomSoundFileDialogButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;alarmCustomSoundFileDialogButton.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="alarmCustomSoundTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 474</value>
-  </data>
-  <data name="alarmCustomSoundTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 20</value>
-  </data>
-  <data name="alarmCustomSoundTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;alarmCustomSoundTextBox.Name" xml:space="preserve">
-    <value>alarmCustomSoundTextBox</value>
-  </data>
-  <data name="&gt;&gt;alarmCustomSoundTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;alarmCustomSoundTextBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;alarmCustomSoundTextBox.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="repeatCheckBox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="repeatCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 373</value>
+    <value>Путь до собственной мелодии</value>
   </data>
   <data name="repeatCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 17</value>
-  </data>
-  <data name="repeatCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
+    <value>129, 17</value>
   </data>
   <data name="repeatCheckBox.Text" xml:space="preserve">
-    <value>Repeat sound</value>
-  </data>
-  <data name="&gt;&gt;repeatCheckBox.Name" xml:space="preserve">
-    <value>repeatCheckBox</value>
-  </data>
-  <data name="&gt;&gt;repeatCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;repeatCheckBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;repeatCheckBox.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="relativeTimeDisplayLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="relativeTimeDisplayLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="relativeTimeDisplayLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>210, 124</value>
-  </data>
-  <data name="relativeTimeDisplayLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>19, 13</value>
-  </data>
-  <data name="relativeTimeDisplayLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="relativeTimeDisplayLabel.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="&gt;&gt;relativeTimeDisplayLabel.Name" xml:space="preserve">
-    <value>relativeTimeDisplayLabel</value>
-  </data>
-  <data name="&gt;&gt;relativeTimeDisplayLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;relativeTimeDisplayLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;relativeTimeDisplayLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="addonsLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+    <value>Повторять мелодию</value>
   </data>
   <data name="addonsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>293, 50</value>
+    <value>293, 39</value>
   </data>
   <data name="addonsLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 13</value>
-  </data>
-  <data name="addonsLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
+    <value>70, 13</value>
   </data>
   <data name="addonsLabel.Text" xml:space="preserve">
-    <value>Add-ons</value>
-  </data>
-  <data name="&gt;&gt;addonsLabel.Name" xml:space="preserve">
-    <value>addonsLabel</value>
-  </data>
-  <data name="&gt;&gt;addonsLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addonsLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;addonsLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="addonAddButtonFileDialog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+    <value>Дополнения</value>
   </data>
   <data name="addonAddButtonFileDialog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>345, 41</value>
+    <value>296, 55</value>
   </data>
   <data name="addonAddButtonFileDialog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 22</value>
-  </data>
-  <data name="addonAddButtonFileDialog.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+    <value>74, 22</value>
   </data>
   <data name="addonAddButtonFileDialog.Text" xml:space="preserve">
-    <value>Add...</value>
-  </data>
-  <data name="&gt;&gt;addonAddButtonFileDialog.Name" xml:space="preserve">
-    <value>addonAddButtonFileDialog</value>
-  </data>
-  <data name="&gt;&gt;addonAddButtonFileDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addonAddButtonFileDialog.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;addonAddButtonFileDialog.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>Добавить...</value>
   </data>
   <data name="addonsTreeView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 66</value>
-  </data>
-  <data name="addonsTreeView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 97</value>
-  </data>
-  <data name="addonsTreeView.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;addonsTreeView.Name" xml:space="preserve">
-    <value>addonsTreeView</value>
-  </data>
-  <data name="&gt;&gt;addonsTreeView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addonsTreeView.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;addonsTreeView.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>296, 83</value>
   </data>
   <data name="addonDeleteButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>394, 41</value>
+    <value>376, 55</value>
   </data>
   <data name="addonDeleteButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 22</value>
-  </data>
-  <data name="addonDeleteButton.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
+    <value>62, 22</value>
   </data>
   <data name="addonDeleteButton.Text" xml:space="preserve">
-    <value>Delete</value>
-  </data>
-  <data name="&gt;&gt;addonDeleteButton.Name" xml:space="preserve">
-    <value>addonDeleteButton</value>
-  </data>
-  <data name="&gt;&gt;addonDeleteButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addonDeleteButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;addonDeleteButton.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>Удалить</value>
   </data>
   <data name="addonOpenButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>446, 41</value>
+    <value>444, 55</value>
   </data>
   <data name="addonOpenButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 22</value>
-  </data>
-  <data name="addonOpenButton.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
+    <value>68, 22</value>
   </data>
   <data name="addonOpenButton.Text" xml:space="preserve">
-    <value>Open</value>
-  </data>
-  <data name="&gt;&gt;addonOpenButton.Name" xml:space="preserve">
-    <value>addonOpenButton</value>
-  </data>
-  <data name="&gt;&gt;addonOpenButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addonOpenButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;addonOpenButton.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>Открыть</value>
   </data>
   <data name="trayMinimizerButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 459</value>
-  </data>
-  <data name="trayMinimizerButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 65</value>
-  </data>
-  <data name="trayMinimizerButton.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
+    <value>296, 501</value>
   </data>
   <data name="trayMinimizerButton.Text" xml:space="preserve">
-    <value>Minimize
-to tray</value>
-  </data>
-  <data name="&gt;&gt;trayMinimizerButton.Name" xml:space="preserve">
-    <value>trayMinimizerButton</value>
-  </data>
-  <data name="&gt;&gt;trayMinimizerButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trayMinimizerButton.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;trayMinimizerButton.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="untrayCheckBox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="untrayCheckBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 239</value>
+    <value>Свернуть в трей</value>
   </data>
   <data name="untrayCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 17</value>
-  </data>
-  <data name="untrayCheckBox.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
+    <value>223, 17</value>
   </data>
   <data name="untrayCheckBox.Text" xml:space="preserve">
-    <value>Maximize from tray when triggered</value>
-  </data>
-  <data name="&gt;&gt;untrayCheckBox.Name" xml:space="preserve">
-    <value>untrayCheckBox</value>
-  </data>
-  <data name="&gt;&gt;untrayCheckBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;untrayCheckBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;untrayCheckBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="languageComboBox.Items" xml:space="preserve">
-    <value>En</value>
-  </data>
-  <data name="languageComboBox.Items1" xml:space="preserve">
-    <value>Ru</value>
-  </data>
-  <data name="languageComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>345, 13</value>
-  </data>
-  <data name="languageComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 21</value>
-  </data>
-  <data name="languageComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;languageComboBox.Name" xml:space="preserve">
-    <value>languageComboBox</value>
-  </data>
-  <data name="&gt;&gt;languageComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;languageComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;languageComboBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>56</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>Развернуть из трея при срабатывании</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>544, 542</value>
+    <value>544, 579</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1485,71 +645,5 @@ to tray</value>
         Ym7AXE8W9rSbXpO5KvONzGVlrr/d9OL8nKL8szD/LMDvk1f5/4oCSf8HlyVEC9qnFmYAAAAASUVORK5C
         YII=
 </value>
-  </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>100000, 100000</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>alAAARM</value>
-  </data>
-  <data name="&gt;&gt;resetToNowToolStripMenuItem.Name" xml:space="preserve">
-    <value>resetToNowToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;resetToNowToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;addToolStripMenuItem.Name" xml:space="preserve">
-    <value>addToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;addToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;secToolStripMenuItem.Name" xml:space="preserve">
-    <value>secToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;secToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
-    <value>toolStripMenuItem1</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;minToolStripMenuItem.Name" xml:space="preserve">
-    <value>minToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;minToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;minToolStripMenuItem1.Name" xml:space="preserve">
-    <value>minToolStripMenuItem1</value>
-  </data>
-  <data name="&gt;&gt;minToolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;minToolStripMenuItem2.Name" xml:space="preserve">
-    <value>minToolStripMenuItem2</value>
-  </data>
-  <data name="&gt;&gt;minToolStripMenuItem2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hToolStripMenuItem.Name" xml:space="preserve">
-    <value>hToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;hToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;notifyIcon1.Name" xml:space="preserve">
-    <value>notifyIcon1</value>
-  </data>
-  <data name="&gt;&gt;notifyIcon1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormAlaaarm</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

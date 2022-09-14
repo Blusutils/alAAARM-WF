@@ -7,16 +7,24 @@ namespace alAAARM {
 
         private byte _soundVolume = 0;
         public byte soundVolume { get => _soundVolume; set { _soundVolume = value; Write(); } }
+
         private string _selectedSound = "Beep Beep Beep";
         public string selectedSound { get => _selectedSound; set { _selectedSound = value; Write(); } }
+
         private string _customSoundPath = "";
         public string customSoundPath { get => _customSoundPath; set { _customSoundPath = value; Write(); } }
+
         private bool _useRelativeTime = true;
         public bool useRelativeTime { get => _useRelativeTime; set { _useRelativeTime = value; Write(); } }
+
         private bool _repeatSound = true;
         public bool repeatSound { get => _repeatSound; set { _repeatSound = value; Write(); } }
+
         private bool _untray = true;
         public bool untray { get => _untray; set { _untray = value; Write(); } }
+
+        private string _language = "";
+        public string language { get => _language; set { _language = value; Write(); } }
 
 
         [JsonIgnore]

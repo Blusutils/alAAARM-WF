@@ -61,6 +61,7 @@
             this.addonOpenButton = new System.Windows.Forms.Button();
             this.trayMinimizerButton = new System.Windows.Forms.Button();
             this.untrayCheckBox = new System.Windows.Forms.CheckBox();
+            this.languageComboBox = new System.Windows.Forms.ComboBox();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.alarmSoundVolumeTrackBar)).BeginInit();
             this.SuspendLayout();
@@ -349,10 +350,22 @@
             this.untrayCheckBox.UseVisualStyleBackColor = true;
             this.untrayCheckBox.CheckedChanged += new System.EventHandler(this.untrayCheckBox_CheckedChanged);
             // 
+            // languageComboBox
+            // 
+            this.languageComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.languageComboBox.FormattingEnabled = true;
+            this.languageComboBox.Items.AddRange(new object[] {
+            resources.GetString("languageComboBox.Items"),
+            resources.GetString("languageComboBox.Items1")});
+            resources.ApplyResources(this.languageComboBox, "languageComboBox");
+            this.languageComboBox.Name = "languageComboBox";
+            this.languageComboBox.SelectedIndexChanged += new System.EventHandler(this.languageComboBox_SelectedIndexChanged);
+            // 
             // FormAlaaarm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.languageComboBox);
             this.Controls.Add(this.untrayCheckBox);
             this.Controls.Add(this.trayMinimizerButton);
             this.Controls.Add(this.addonOpenButton);
@@ -442,6 +455,7 @@
         private System.Windows.Forms.Button addonOpenButton;
         private System.Windows.Forms.Button trayMinimizerButton;
         private System.Windows.Forms.CheckBox untrayCheckBox;
+        private System.Windows.Forms.ComboBox languageComboBox;
     }
 }
 
