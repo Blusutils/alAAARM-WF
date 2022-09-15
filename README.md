@@ -1,6 +1,10 @@
 # ALAAARM <img src="./ALAAARM.png" align="center" width="50">
 Alarm clock!
 
+| |This project is in Blusutils EEE Projects list| |
+-|-|-
+| |[Check it out here](https://github.com/Blusutils/projEEECTS)| |
+
 Simple Windows Forms application what creates alarm clocks.
 
 ![App look](https://user-images.githubusercontent.com/71507444/189630600-ebc680dc-5e51-4147-a836-ad37355b06f4.png)
