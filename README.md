@@ -1,5 +1,5 @@
 # ALAAARM <img src="./ALAAARM.png" align="center" width="50">
-Alarm clock!
+Alarm clock! (WinForms version)
 
 | |This project is in Blusutils EEE Projects list| |
 -|-|-
